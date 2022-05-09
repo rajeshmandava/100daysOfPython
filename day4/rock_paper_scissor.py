@@ -25,13 +25,15 @@ scissors = '''
       (____)
 ---.__(___)
 '''
+outcome = [rock,paper,scissors]
+printer = ["Rock", "Paper", "Scissors"]
 choice = int(input('''Enter your choice
 0 for Rock
 1 for Scissors
 2 for Paper'''))
+print(f"You choose {printer[choice]}'\n{outcome[choice]}")
 
-outcome = [rock,paper,scissors]
-printer = ["Rock", "Paper", "Scissors"]
+
 
 comp_choice = random.randint(0,2)
 print(f"computer choose {printer[comp_choice]} '\n{outcome[comp_choice]}")
