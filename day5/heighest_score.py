@@ -8,4 +8,4 @@ for s in scores:
   if s>max:
     max = s
 
-print(s)
+print(f"The height score in the class is {s}")
